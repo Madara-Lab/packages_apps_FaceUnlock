@@ -90,6 +90,7 @@ prebuilt_etc {
     system_ext_specific: true,
 }
 
+/*
 android_library_import {
     name: "tensorflow-lite-gpu",
     aars: ["libs/tensorflow-lite-gpu.aar"],
@@ -101,6 +102,7 @@ android_library_import {
     aars: ["libs/tensorflow-lite-gpu-api.aar"],
     sdk_version: "current",
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libimage_processing_util_jni",
@@ -146,6 +148,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libtensorflowlite_gpu_jni",
     arch: {
@@ -167,3 +170,5 @@ cc_prebuilt_library_shared {
     },
     check_elf_files: false,
 }
+*/
+
